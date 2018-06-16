@@ -27,6 +27,13 @@ public class Filtro {
         this.existencia = existencia;
     }
 
+    public Filtro(String codigo, String marca, int stock, boolean existencia) {
+        this.codigo = codigo;
+        this.marca = marca;
+        this.stock = stock;
+        this.existencia = existencia;
+    }
+
     public Filtro(String marca, int stock, boolean existencia) {
         this.marca = marca;
         this.stock = stock;
